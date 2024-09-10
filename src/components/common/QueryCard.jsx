@@ -25,6 +25,7 @@ const QueryCard = ({ name, phone, email, subject, description, createdAt }) => {
             <span>{phone}</span>
             <p className="mt-2">{formattedDate}</p>
 
+            <p style={{fontWeight:"bold"}}>{subject}</p>
             <p className="mb-0">Description:</p>
             <p>{description}</p>
           </div>

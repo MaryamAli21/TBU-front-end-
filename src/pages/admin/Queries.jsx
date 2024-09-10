@@ -29,11 +29,11 @@ const Queries = () => {
 
   return (
     <>
-      <PageTitle pageName={"Queries"} link="Admin" />
+      <PageTitle pageName={"Inquiries"} link="Admin" />
       <div className="testimonial-area pt-100 pb-75">
         <div className="container">
           <Title
-            sectionName={"Queries"}
+            sectionName={"Inquiries"}
             sectionTitle={"Get in touch with the Customers!"}
           />
 

@@ -32,7 +32,7 @@ const AdminHeader = () => {
               <ul className="navbar-nav m-auto">
                 <li className="nav-item">
                   <Link to={"/admin/"} className={`nav-link`}>
-                    QUERIES
+                  INQUIRIES
                   </Link>
                 </li>
                 <li className="nav-item">
