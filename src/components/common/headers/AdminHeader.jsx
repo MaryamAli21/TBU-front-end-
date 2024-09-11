@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import useStickyHeader from "../../../hooks/useStickyHeader";
 import MobileMenu from "./mobileMenu";
 import tbu_logo from "./tbu-logo.jpeg";
@@ -8,7 +8,14 @@ const AdminHeader = () => {
   useStickyHeader();
   const [othersOption, setOtherOption] = useState(false);
   const [menuActive, setMenuActive] = useState(false);
+  
+  const navigate = useNavigate();
+  const handleLogout = () => {
+    localStorage.removeItem("user");
+    navigate("/admin/login");
 
+    
+  };
   return (
     <div className="navbar-area ">
       <MobileMenu menuActive={menuActive} setMenuActive={setMenuActive} />
@@ -36,9 +43,9 @@ const AdminHeader = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to={"/"} className={`nav-link`}>
+                  <a onClick={handleLogout} className={`nav-link cursor-pointer`}>
                     LOGOUT
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -48,7 +55,6 @@ const AdminHeader = () => {
 
       <div className="others-option-for-responsive">
         <div className="container">
-         
           <div className="menu-icon">
             <i
               className={`ri-menu-line ${menuActive ? "d-none" : "d-block "}`}

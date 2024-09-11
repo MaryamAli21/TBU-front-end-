@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const ServiceCardFour = ({ id, link, service_name, service_details, }) => {
+const ServiceCardFour = ({ id, link, service_name, service_details, cardStyle}) => {
     return (
-        <div className="single-security-info">
+        <div className="single-security-info" style={cardStyle}>
             <div className="date">
                 {id}
             </div>

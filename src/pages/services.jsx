@@ -3,13 +3,14 @@ import { ScrollRestoration } from "react-router-dom";
 import PageTitle from "../components/common/pageTitle";
 import ServicesFour from "../components/sections/services/servicesFour";
 import ServicesTwo from "../components/sections/services/servicesTwo";
+import { servicesDataFour } from '../utlits/fackData/servicesDataFour'
 
 const Services = () => {
   return (
     <>
       <PageTitle link={"Services"} pageName={"Our Services"} />
-      <ServicesFour style={"services-style"} />
       <ServicesTwo />
+      <ServicesFour cardStyle={{height:"20rem"}} data={servicesDataFour} style={"services-style"} />
       <ScrollRestoration />
     </>
   );

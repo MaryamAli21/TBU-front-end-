@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { projectData } from '../../utlits/fackData/projectData';
 import { slideUp } from '../../utlits/slideUp';
 
-const Projects = () => {
+const Cases = () => {
     const [activeIndex, setActiveIndex] = useState(5);
 
     useEffect(() => {
@@ -28,7 +28,7 @@ const Projects = () => {
                     >
                         <div className="col-lg-7 col-md-8">
                             <div className="title">
-                                <span className="d-block">Our Projects</span>
+                                <span className="d-block">Cases</span>
                                 <h2>Feat to Celebrate: Showcasing Some of Our Proud Projects.</h2>
                             </div>
                         </div>
@@ -76,4 +76,4 @@ const Projects = () => {
     )
 }
 
-export default Projects
+export default Cases

@@ -63,8 +63,7 @@ const Footer = () => {
   ]
   return (
     <footer style={{ background: "black" }}>
-      <Subscribe />
-      {/* -------- footer info */}
+
       <div className="footer-area" style={{ background: "black" }}>
         <div className="container">
           <motion.div
@@ -80,27 +79,24 @@ const Footer = () => {
                   <Link className="text-decoration-none logo" to="/">
                     <img width={250} src={tbulogo} alt="logo" />
                   </Link>
-                  <p>
+                  {/* <p>
                     We turn visions into reality in the most innovative way by
                     delivering high quality solutions To empower businesses of
                     all sizes with cutting-edge, secure, optimal user
                     experience, web design and SEO strategies that drive growth
                     and success
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className="col-lg-8">
-                <div className="row justify-content-center">
-                  <div className="col-lg-4 col-sm-6 col-md-4">
+                <div className="row justify-content-center mt-4">
+                  <div className="col-lg-4 col-sm-6 col-md-4 ">
                     <div className="single-footer-info">
                       <h3>Contact Us</h3>
                       <ul className="list-unstyled ps-0 mb-0">
+                        
                         <li>
-                          <strong>Address : </strong>521684 Street Victoria
-                          Road, New York.
-                        </li>
-                        <li>
-                          <strong>Email:</strong>
+                          <strong>Email: </strong>
                           <a
                             className="text-decoration-none"
                             href="mailto:info@tbu.com"
@@ -108,15 +104,7 @@ const Footer = () => {
                             info@tbu.com
                           </a>
                         </li>
-                        <li>
-                          <strong>Phone:</strong>
-                          <a
-                            className="text-decoration-none"
-                            href="tel:+97336800135"
-                          >
-                            +973-36800135
-                          </a>
-                        </li>
+                        
                       </ul>
                     </div>
                   </div>

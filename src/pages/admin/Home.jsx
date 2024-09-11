@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import { motion } from "framer-motion";
 import { Link, ScrollRestoration, useNavigate } from "react-router-dom";
 import PageTitle from "../../components/common/pageTitle";
@@ -46,6 +46,12 @@ const index = () => {
       console.error("Error:", error);
     }
   };
+
+  useEffect(()=>{
+    if(localStorage.getItem("user")){
+      navigate("/admin/inquiries");
+    }
+  },[])
 
   return (
     <div>

@@ -12,10 +12,9 @@ const ServicesTwo = () => {
   return (
     <div className="services-area style-3 pt-100 pb-75">
       <div className="container">
-        <Title sectionName={"Our Services"} sectionTitle={"From Your Cyber Security Services."}/>
-        <div className="row">
+       <div className="row">
           {
-            servicesDataTwo.map(({ id, link, service_details, service_name, src }) => {
+            servicesDataTwo.map(({ id, service_name, src }) => {
               return (
                 <div key={id} className="col-lg-4 col-sm-6">
                   <motion.div className="single-security-services text-center"
@@ -29,7 +28,6 @@ const ServicesTwo = () => {
                     </div>
                     <span className="d-block">{service_name}</span>
                     <h3>
-                      <Link className="text-decoration-none" to={link}>{service_details}</Link>
                     </h3>
                   </motion.div>
                 </div>
@@ -37,9 +35,6 @@ const ServicesTwo = () => {
             })
           }
         </div>
-      </div>
-      <div className="services-box-shape" data-cue="slideInUp">
-        <img src={shap_bg} alt="shape" />
       </div>
     </div>
   )

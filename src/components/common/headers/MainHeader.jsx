@@ -5,7 +5,7 @@ import useStickyHeader from '../../../hooks/useStickyHeader'
 import { menuList } from '../../../utlits/fackData/menuList'
 import MobileMenu from './mobileMenu'
 
-const MainHeader = ({ }) => {
+const HeaderOne = ({ }) => {
     useStickyHeader()
     const [othersOption, setOtherOption] = useState(false)
     const [menuActive, setMenuActive] = useState(false)
@@ -18,7 +18,7 @@ const MainHeader = ({ }) => {
                     <div className="container-fluid">
                         <nav className="navbar navbar-expand-md navbar-light">
                             <Link className="navbar-brand me-0" to="/">
-                                <img src={tbu_logo} className="black-logo" alt="logo" width={120}/>
+                                <img src={tbu_logo} className="black-logo" alt="logo" width={180}/>
                             </Link>
 
                             <div className="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -87,4 +87,4 @@ const MainHeader = ({ }) => {
     )
 }
 
-export default MainHeader
+export default HeaderOne

@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion"
 import { slideUp } from '../../utlits/slideUp'
 
-const Title = ({sectionName, sectionTitle, style}) => {
+const Title = ({sectionName, sectionTitle, style,mainStyle}) => {
     return (
         <motion.div className={`section-title text-center ${style}`}
             initial="offscreen"
@@ -10,7 +10,7 @@ const Title = ({sectionName, sectionTitle, style}) => {
             variants={slideUp(1)}
             viewport={{ once: true, amount: 0.4 }}
         >
-            <span className="d-block">{sectionName}</span>
+            <span style={mainStyle} className="d-block">{sectionName}</span>
             <h2>{sectionTitle}</h2>
         </motion.div>
     )

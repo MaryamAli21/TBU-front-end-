@@ -64,6 +64,10 @@ p {
         margin-bottom: 0;
     }
 }
+.cursor-pointer{
+    cursor:pointer
+}
+
 .form-control {
 
     &:focus {
@@ -3412,7 +3416,7 @@ Contact Area Style
         border-radius: 100%;
         margin-bottom: 25px;
         display: inline-block;
-        color: var(--blackColor);
+        // color: var(--blackColor);
         transition: var(--transition);
         border: 1px solid rgba(207, 217, 249, 0.5);
     }

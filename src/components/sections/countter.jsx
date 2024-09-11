@@ -9,15 +9,9 @@ const Countter = () => {
     const counterData = [
         {
             id: 1,
-            counter: <CountUp start={0} end={36} duration={2} delay={0}></CountUp>,
+            counter: <CountUp start={0} end={10} duration={2} delay={0}></CountUp>,
             label: "+",
             title: "YEARS' EXPERIENCE",
-        },
-        {
-            id: 2,
-            counter: <CountUp start={0} end={645} duration={2} delay={0}></CountUp>,
-            label: "+",
-            title: "CYBER SECURITY EXPERTS",
         },
         {
             id: 3,
@@ -27,8 +21,8 @@ const Countter = () => {
         },
         {
             id: 4,
-            counter: <CountUp start={0} end={35} duration={2} delay={0}></CountUp>,
-            label: "M",
+            counter: <CountUp start={0} end={600} duration={2} delay={0}></CountUp>,
+            label: "+",
             title: "CUSTOMER SERVED GLOBALLY",
         },
     ];
