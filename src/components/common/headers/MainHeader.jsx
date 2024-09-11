@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import tbu_logo from "./tbu-logo.jpeg"
 import { Link } from 'react-router-dom'
 import useStickyHeader from '../../../hooks/useStickyHeader'
-import { menuList } from '../../../utlits/fackData/menuList'
+import { menuList } from '../../../utlits/data/menuList'
 import MobileMenu from './mobileMenu'
 
 const HeaderOne = ({ }) => {

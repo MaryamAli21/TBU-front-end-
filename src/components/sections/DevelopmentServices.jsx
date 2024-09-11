@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { zoomIn } from "../../utlits/zoomIn";
 import Title from "../common/title";
 import ServicesFour from "./services/servicesFour";
-import { servicesDataFour } from "../../utlits/fackData/servicesDataFour";
+import { servicesDataFour } from "../../utlits/data/servicesDataFour";
 
 const DevelopmentServices = () => {
   

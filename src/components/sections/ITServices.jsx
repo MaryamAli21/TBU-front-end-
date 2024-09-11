@@ -1,5 +1,5 @@
 import React from "react";
-import { itServicesData } from "../../utlits/fackData/itServicesData";
+import { itServicesData } from "../../utlits/data/itServicesData";
 import Title from "../common/title";
 import ServicesFour from "./services/servicesFour";
 

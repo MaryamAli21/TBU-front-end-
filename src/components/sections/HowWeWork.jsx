@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { workData } from "../../utlits/fackData/workData";
+import { workData } from "../../utlits/data/workData";
 import { zoomIn } from "../../utlits/zoomIn";
 import Title from "../common/title";
 

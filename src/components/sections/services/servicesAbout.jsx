@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { slideUp } from "../../../utlits/slideUp";
 import { zoomIn } from "../../../utlits/zoomIn";
-import { servicesDataThree } from "../../../utlits/fackData/servicesDataThree";
+import { servicesDataThree } from "../../../utlits/data/servicesDataThree";
 
 const ServicesThree = () => {
   return (

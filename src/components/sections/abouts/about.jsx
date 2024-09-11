@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { slideUp } from '../../../utlits/slideUp'
 import Title from "../../../components/common/title";
 import TeamCard from "../../../components/sections/teamCard";
-import { teamData } from "../../../utlits/fackData/teamData";
+import { teamData } from "../../../utlits/data/teamData";
 
 const About = () => {
     return (

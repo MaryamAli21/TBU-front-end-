@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { menuList } from '../../../utlits/fackData/menuList'
+import { menuList } from '../../../utlits/data/menuList'
 import tbu_logo from "./tbu-logo.jpeg";
 
 const MobileMenu = ({menuActive, setMenuActive}) => {

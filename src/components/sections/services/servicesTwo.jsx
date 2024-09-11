@@ -5,7 +5,7 @@ import shap_bg from "../../../assets/images/services/services-box-shape.png"
 import { Link } from 'react-router-dom'
 import { zoomIn } from '../../../utlits/zoomIn'
 import Title from '../../common/title'
-import { servicesDataTwo } from '../../../utlits/fackData/servicesDataTwo'
+import { servicesDataTwo } from '../../../utlits/data/servicesDataTwo'
 import ServiceIconOne from '../../../assets/icons/serviceIconOne'
 const ServicesTwo = () => {
 
