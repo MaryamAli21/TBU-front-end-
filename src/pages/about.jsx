@@ -1,15 +1,15 @@
 import React from 'react'
 import PageTitle from '../components/common/pageTitle'
-import AboutFour from '../components/sections/abouts/aboutFour'
-import ServicesThree from '../components/sections/services/servicesThree'
+import AboutDetails from '../components/sections/abouts/about'
+import Services from '../components/sections/services/servicesAbout'
 import { ScrollRestoration } from 'react-router-dom'
 
 const About = () => {
   return (
     <>
       <PageTitle link={"About"} pageName={"About Us"} />
-      <AboutFour/>
-      <ServicesThree/>
+      <AboutDetails/>
+      <Services/>
       <ScrollRestoration />
     </>
   )

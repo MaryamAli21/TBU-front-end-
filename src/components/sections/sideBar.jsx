@@ -1,8 +1,6 @@
-import React from 'react'
 import { motion } from "framer-motion"
-import { blogData } from '../../utlits/fackData/blogData'
+import React from 'react'
 import { Link } from 'react-router-dom'
-import { zoomIn } from '../../utlits/zoomIn'
 import { slideUp } from '../../utlits/slideUp'
 
 const tags = [
@@ -113,38 +111,6 @@ const SideBar = ({ dActive }) => {
                     </div>
                 </form>
             </motion.div>
-            {dActive &&
-                <motion.div className="single-pages-widget latest-posts"
-                    initial="offscreen"
-                    whileInView="onscreen"
-                    variants={slideUp(1)}
-                    viewport={{ once: true, amount: 0.1 }}
-                >
-                    <h3>Latest Posts</h3>
-                    {
-                        blogData.slice(0, 4).map(({ author, author_link, date, id, link, thumb, title }) => {
-                            return (
-                                <div key={id} className="post-card d-flex align-items-center">
-                                    <div className="image">
-                                        <Link href={link}><img src={thumb} alt="blog-image" /></Link>
-                                    </div>
-                                    <div className="content">
-                                        <ul className="list-unstyled ps-0 mb-0">
-                                            <li className="d-inline-block">
-                                                <i className="ri-calendar-2-line"></i>
-                                                {date}
-                                            </li>
-                                        </ul>
-                                        <h4>
-                                            <Link className="text-decoration-none" to={link}>{title.length > 40 ? title.slice(0, 40) + '...' : title}</Link>
-                                        </h4>
-                                    </div>
-                                </div>
-                            )
-                        })
-                    }
-                </motion.div>
-            }
             <motion.div className="single-pages-widget services"
                 initial="offscreen"
                 whileInView="onscreen"

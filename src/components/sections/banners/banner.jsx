@@ -7,7 +7,7 @@ import ModalVideo from 'react-modal-video';
 import "react-modal-video/scss/modal-video.scss";
 import { Link } from 'react-router-dom'
 
-const BannerOne = () => {
+const Banner = () => {
     const [isOpen, setOpen] = useState(false);
     return (
         <section className="banner-area">
@@ -60,4 +60,4 @@ const BannerOne = () => {
     )
 }
 
-export default BannerOne
+export default Banner

@@ -24,7 +24,7 @@ const ContactForm = () => {
     try {
       setSuccess();
       const response = await fetch(
-        `${import.meta.env.VITE_BACKEND_URL}/api/services`,
+        `${import.meta.env.VITE_BACKEND_URL}/api/inquiries`,
         {
           method: "POST",
           headers: {

@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import about_image from "../../../assets/images/about/about-7.png"
 import { Link } from 'react-router-dom'
 import { slideUp } from '../../../utlits/slideUp'
-const AboutFour = () => {
+const About = () => {
     return (
         <div className="about-area pt-100 pb-75">
             <div className="container">
@@ -40,4 +40,4 @@ const AboutFour = () => {
     )
 }
 
-export default AboutFour
+export default About

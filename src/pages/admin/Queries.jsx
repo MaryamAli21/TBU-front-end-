@@ -11,7 +11,16 @@ const Queries = () => {
 
   async function fetchInquiries() {
     try {
-      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/services`);
+      const response = await fetch(
+        `${import.meta.env.VITE_BACKEND_URL}/api/inquiries`,
+        {
+          method:"GET",
+          headers: {
+            authorization: `Bearer ${localStorage.getItem("user")}`,
+            "Content-Type": "application/json",
+          },
+        }
+      );
       if (response.ok) {
         const jsonRes = await response.json();
         setQueriesData(jsonRes);

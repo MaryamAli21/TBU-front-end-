@@ -32,7 +32,7 @@ const AdminHeader = () => {
               <ul className="navbar-nav m-auto">
                 <li className="nav-item">
                   <Link to={"/admin/"} className={`nav-link`}>
-                  INQUIRIES
+                    INQUIRIES
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -48,16 +48,7 @@ const AdminHeader = () => {
 
       <div className="others-option-for-responsive">
         <div className="container">
-          <div
-            className="dot-menu"
-            onClick={() => setOtherOption(!othersOption)}
-          >
-            <div className="inner">
-              <div className="circle circle-one"></div>
-              <div className="circle circle-two"></div>
-              <div className="circle circle-three"></div>
-            </div>
-          </div>
+         
           <div className="menu-icon">
             <i
               className={`ri-menu-line ${menuActive ? "d-none" : "d-block "}`}

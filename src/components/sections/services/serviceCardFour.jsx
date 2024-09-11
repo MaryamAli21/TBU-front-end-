@@ -11,10 +11,6 @@ const ServiceCardFour = ({ id, link, service_name, service_details, }) => {
                 <Link className="text-decoration-none" to={link}>{service_name}</Link>
             </h3>
             <p>{service_details}</p>
-            <Link className="read-more text-decoration-none" to={link}>
-                Read More
-                <i className="ri-arrow-right-line"></i>
-            </Link>
         </div>
     )
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import Rating from "./rating";
 
 const QueryCard = ({ name, phone, email, subject, description, createdAt }) => {
   const formattedDate = new Intl.DateTimeFormat("en-US", {

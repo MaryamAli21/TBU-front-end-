@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { menuList } from '../../../utlits/fackData/menuList'
-import white_logo from "../../../assets/images/white-logo.png"
+import tbu_logo from "./tbu-logo.jpeg";
 
 const MobileMenu = ({menuActive, setMenuActive}) => {
     const [dropdownActive, setDropDownActive] = useState(null)
@@ -11,7 +11,7 @@ const MobileMenu = ({menuActive, setMenuActive}) => {
                 <div className="mobile-responsive-menu">
                     <div className="logo">
                         <Link to="/">
-                            <img src={white_logo} className="main-logo" alt="logo" />
+                            <img src={tbu_logo} width={80} className="main-logo" alt="logo" />
                         </Link>
                     </div>
                     <div className={`bg-white overflow-hidden mobile-responsive-inner shadow ${menuActive ? "mobile-responsive-active" : ""} `}>

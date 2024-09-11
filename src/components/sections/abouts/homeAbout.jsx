@@ -6,7 +6,7 @@ import about_5 from "../../../assets/images/about/about-5.jpg"
 import Members from '../../../assets/icons/members'
 import Technology from '../../../assets/icons/technology'
 import { slideUp } from '../../../utlits/slideUp'
-const AboutOne = () => {
+const About = () => {
     return (
         <section className="about-area style-2 pb-75">
             <div className="container">
@@ -65,6 +65,6 @@ const AboutOne = () => {
     )
 }
 
-export default AboutOne
+export default About
 
 

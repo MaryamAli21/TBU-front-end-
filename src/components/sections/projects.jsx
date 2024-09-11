@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { projectData } from '../../utlits/fackData/projectData';
 import { slideUp } from '../../utlits/slideUp';
 
-const ProjectOne = () => {
+const Projects = () => {
     const [activeIndex, setActiveIndex] = useState(5);
 
     useEffect(() => {
@@ -76,4 +76,4 @@ const ProjectOne = () => {
     )
 }
 
-export default ProjectOne
+export default Projects
