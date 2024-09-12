@@ -1,11 +1,11 @@
-import React from "react";
 import { motion } from "framer-motion";
+import React from "react";
 import { Link } from "react-router-dom";
 import about_4 from "../../../assets/images/about/about-4.jpg";
 import about_5 from "../../../assets/images/about/about-5.jpg";
-import Members from "../../../assets/icons/members";
-import Technology from "../../../assets/icons/technology";
 import { slideUp } from "../../../utlits/slideUp";
+import AboutImg from "../../../assets/images/about-home.jpg"
+import AboutImg2 from "../../../assets/images/about-home2.jpg"
 const About = () => {
   return (
     <section className="about-area style-2 pb-75">
@@ -20,10 +20,10 @@ const About = () => {
           <div className="col-lg-6">
             <div className="about-image style-2">
               <div className="image-1">
-                <img src={about_4} alt="about-image" />
+                <img src={AboutImg2} alt="about-image" />
               </div>
               <div className="image-two">
-                <img src={about_5} alt="about-image" />
+                <img src={AboutImg} alt="about-image" />
               </div>
             </div>
           </div>
