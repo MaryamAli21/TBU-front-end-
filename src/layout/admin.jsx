@@ -9,7 +9,7 @@ const AdminLayout = () => {
     if (!localStorage.getItem("user")) {
       navigate("/admin/login");
     }
-  });
+  },[]);
   return (
     <>
       <AdminHeader />
