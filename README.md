@@ -33,5 +33,5 @@ ERD
 * npm
 
 # Planned Future Enhancements
-Pagination for Explore page and comments.
-Form to apply for creation of new item categories and sub-categories.
+Explore services on seperate pages.
+booking throgh a calander, online demos and vidos videos
