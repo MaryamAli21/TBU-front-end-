@@ -34,4 +34,4 @@ ERD
 
 # Planned Future Enhancements
 Explore services on seperate pages.
-booking throgh a calander, online demos and vidos videos
+booking throgh a calander, online demos and vid
