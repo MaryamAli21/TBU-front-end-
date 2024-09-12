@@ -38,7 +38,7 @@ const AdminHeader = () => {
             >
               <ul className="navbar-nav m-auto">
                 <li className="nav-item">
-                  <Link to={"/admin/"} className={`nav-link`}>
+                  <Link to={"/admin/inquiries"} className={`nav-link`}>
                     INQUIRIES
                   </Link>
                 </li>

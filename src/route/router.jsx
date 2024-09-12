@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import Home from "../App";
 import AdminLayout from "../layout/admin";
 import RootLayout from "../layout/root";
@@ -50,6 +50,10 @@ export const router = createBrowserRouter([
     element: <AdminLayout />,
     errorElement: <NotFound />,
     children: [
+      {
+        path: "",
+        element: <Navigate to="inquiries" replace />, 
+      },
       {
         path: "inquiries",
         element: <Queries />,
