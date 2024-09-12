@@ -1,6 +1,8 @@
 
 # TBU (Company consultancy website)
 
+![favicon](https://github.com/user-attachments/assets/fe7d4c00-20e4-464a-80db-fb16f05e1974)
+
 Deployed Website: [Click here!](https://tbu-frontend-72a2be8159d3.herokuapp.com/)
 
 Company consultancy website with an inquiry form for general inquiries submission and Super admin control
