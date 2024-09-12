@@ -19,12 +19,12 @@ ERD
 Wireframes
 
 # Technologies Used
-*React.js
-*HTML
-*CSS
-*Express
-*MongoDB
-*npm
+* React.js
+* HTML
+* CSS
+* Express
+* MongoDB
+* npm
 
 # Planned Future Enhancements
 Pagination for Explore page and comments.
