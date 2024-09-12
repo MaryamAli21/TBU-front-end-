@@ -21,8 +21,8 @@ Built in MERN stack.
 # Planning Documents
 
 ERD
+![Untitled - ERD](https://github.com/user-attachments/assets/a45a2dc6-3445-4d7a-8aba-6fe59b15a69a)
 
-Wireframes
 
 # Technologies Used
 * React.js
